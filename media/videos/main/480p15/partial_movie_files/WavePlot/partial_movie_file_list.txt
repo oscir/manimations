@@ -1,0 +1,12 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/oscarfabricius/codeprjects/manimations/media/videos/main/480p15/partial_movie_files/WavePlot/1185818338_789525442_223132457.mp4'
+file 'file:/Users/oscarfabricius/codeprjects/manimations/media/videos/main/480p15/partial_movie_files/WavePlot/624642324_4217992463_584374847.mp4'
+file 'file:/Users/oscarfabricius/codeprjects/manimations/media/videos/main/480p15/partial_movie_files/WavePlot/624642324_2993786389_1889646096.mp4'
+file 'file:/Users/oscarfabricius/codeprjects/manimations/media/videos/main/480p15/partial_movie_files/WavePlot/624642324_3394500337_3313259642.mp4'
+file 'file:/Users/oscarfabricius/codeprjects/manimations/media/videos/main/480p15/partial_movie_files/WavePlot/624642324_3473562711_587413730.mp4'
+file 'file:/Users/oscarfabricius/codeprjects/manimations/media/videos/main/480p15/partial_movie_files/WavePlot/624642324_2844360058_698424497.mp4'
+file 'file:/Users/oscarfabricius/codeprjects/manimations/media/videos/main/480p15/partial_movie_files/WavePlot/624642324_451678372_1443193226.mp4'
+file 'file:/Users/oscarfabricius/codeprjects/manimations/media/videos/main/480p15/partial_movie_files/WavePlot/624642324_3394500337_4047194740.mp4'
+file 'file:/Users/oscarfabricius/codeprjects/manimations/media/videos/main/480p15/partial_movie_files/WavePlot/624642324_2796615376_2937882748.mp4'
+file 'file:/Users/oscarfabricius/codeprjects/manimations/media/videos/main/480p15/partial_movie_files/WavePlot/624642324_2844360058_3536564554.mp4'
+file 'file:/Users/oscarfabricius/codeprjects/manimations/media/videos/main/480p15/partial_movie_files/WavePlot/624642324_2844360058_2206257233.mp4'

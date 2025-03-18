@@ -1,1 +1,2 @@
-![Delaunator](media/videos/main/480p15/WavePlot.mp4=true "delaunator")
+## Manimations
+![waveplot](media/images/main/WavePlot0125.png=true "waveplot")

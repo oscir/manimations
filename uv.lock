@@ -234,12 +234,14 @@ source = { virtual = "." }
 dependencies = [
     { name = "latex" },
     { name = "manim" },
+    { name = "readme-md" },
 ]
 
 [package.metadata]
 requires-dist = [
     { name = "latex", specifier = ">=0.7.0" },
     { name = "manim", specifier = ">=0.19.0" },
+    { name = "readme-md", specifier = ">=2018.11.23" },
 ]
 
 [[package]]
@@ -392,6 +394,12 @@ wheels = [
 ]
 
 [[package]]
+name = "public"
+version = "2020.12.3"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/26/0a/e1ea97f50e248c83acf80c2ab3b41bce8bb674348a6a3af7b7e40bb6aadd/public-2020.12.3.tar.gz", hash = "sha256:2919ef9037e2a2d2563f8431adaa09b6b129d5398d0a687e42f00593484a9aa2", size = 2067 }
+
+[[package]]
 name = "pycairo"
 version = "1.27.0"
 source = { registry = "https://pypi.org/simple" }
@@ -473,6 +481,19 @@ wheels = [
 ]
 
 [[package]]
+name = "readme-md"
+version = "2018.11.23"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "public" },
+    { name = "setuptools" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/c3/86/a34338a208eebe09bc5b3e233aee222e54f3232d679e01884024e71fd65e/readme-md-2018.11.23.tar.gz", hash = "sha256:764cb5de8adc5ed1475f6030bcb893a9b9756f958d7c9655ade5c33f9dea16bb", size = 4420 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/91/90/e9d8b9cb602c4d67260f0f59d44ba0a69323fba53e7f0dfb92a4d840cf67/readme_md-2018.11.23-py2.py3-none-any.whl", hash = "sha256:cc7e94f13bd204205037fcfb33640584240cc424500c129783c860da1271ee81", size = 8143 },
+]
+
+[[package]]
 name = "rich"
 version = "13.9.4"
 source = { registry = "https://pypi.org/simple" }
@@ -525,6 +546,15 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/ec/bb/e69e5e628d43f118e0af4fc063c20058faa8635c95a1296764acc8167e27/screeninfo-0.8.1.tar.gz", hash = "sha256:9983076bcc7e34402a1a9e4d7dabf3729411fd2abb3f3b4be7eba73519cd2ed1", size = 10666 }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/6e/bf/c5205d480307bef660e56544b9e3d7ff687da776abb30c9cb3f330887570/screeninfo-0.8.1-py3-none-any.whl", hash = "sha256:e97d6b173856edcfa3bd282f81deb528188aff14b11ec3e195584e7641be733c", size = 12907 },
+]
+
+[[package]]
+name = "setuptools"
+version = "76.0.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/32/d2/7b171caf085ba0d40d8391f54e1c75a1cda9255f542becf84575cfd8a732/setuptools-76.0.0.tar.gz", hash = "sha256:43b4ee60e10b0d0ee98ad11918e114c70701bc6051662a9a675a0496c1a158f4", size = 1349387 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/37/66/d2d7e6ad554f3a7c7297c3f8ef6e22643ad3d35ef5c63bf488bc89f32f31/setuptools-76.0.0-py3-none-any.whl", hash = "sha256:199466a166ff664970d0ee145839f5582cb9bca7a0a3a2e795b6a9cb2308e9c6", size = 1236106 },
 ]
 
 [[package]]
